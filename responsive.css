@@ -1,0 +1,320 @@
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    
+/*<!-- header start  -->*/
+/*<!-- header End  -->*/
+
+/*<!-- home section start -->*/
+/*<!-- home section end -->*/
+
+/*<!-- fast 1 card section start -->*/
+/*<!-- fast 1 card section end -->*/
+
+/*<!-- two 2 card section start -->*/
+/*<!-- two 2 card section end -->*/
+
+/*<!-- three 3 card section start -->*/
+/*<!-- three 3 card section end -->*/
+
+/*<!-- footer  section start -->*/
+/*<!-- footer section end -->*/
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+/*<!-- header start  -->*/
+/*<!-- header End  -->*/
+
+/*<!-- home section start -->*/
+.home-section .input-main {
+    margin-top: 20px;
+    width: auto;
+    display: flex;
+    height: auto;
+}
+}
+
+@media only screen and (max-width: 771px){
+ 
+    .home-section .input-main {
+        margin-top: 20px;
+        width: auto;
+        display: flex;
+        height: auto;
+        flex-direction: column;       
+    }
+    .home-section .input-main button {
+        color: white;
+        width: 130px;
+        margin-top: 20px;
+        background-color: #643fe7;
+        padding: 6px 3px ;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 496px){
+
+    .home-section .input-main input{
+        width: 350px;
+        padding-left: 10px;
+        height: 40px;
+    }
+    
+.header-wepper .navbar-brand img {
+    max-width: 160px;
+    height: auto;
+}
+
+    .banner-slid-img {
+         
+        display: none;
+    }
+    .home-section {
+        padding: 10px 20px;
+    }
+.home-section .input-main .input-icon .fa-solid {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+}
+    .home-section .input-main {
+        margin-top: 20px;
+        width: auto;
+        display: flex;
+        height: auto;
+        flex-direction: column;       
+    }
+
+    
+.home-section .title-section {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #643fe7;
+}
+
+.home-section .title-section span {
+    font-size: 1.6rem;
+    color: #8845f8;
+}
+}
+
+
+
+@media only screen and (max-width: 436px){
+
+
+    
+.home-section .input-main .input-icon {
+    position: relative;
+    width: 300px;
+}
+    .home-section .input-main input{
+        width: 300px;
+        padding-left: 10px;
+        height: 50px;
+    }
+
+    
+.home-section .input-main .input-icon .fa-solid {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+    .home-section .input-main {
+        margin-top: 20px;
+        width: auto;
+        display: flex;
+        height: auto;
+        flex-direction: column;       
+    }
+
+ /* main section start  */
+
+ .main {
+    padding: 100px 0;
+}
+.main .main-title {
+ color: #643fe7;
+ font-size: 2rem;
+ font-weight: bolder;
+}
+.main span {
+    color: black;
+}
+.main .main-text {
+    color: black;
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+.job-main .main-title h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.job-main .main-title span {
+    color: black;
+}
+ /* main section end  */
+    
+
+
+}
+
+@media only screen and (max-width: 360px){
+
+
+    
+    .home-section .input-main .input-icon {
+        position: relative;
+        width: 210px;
+    }
+        .home-section .input-main input{
+            width: 230px;
+            padding: 18px 10px;
+            /* padding-left: 10px; */
+            height: 35px;
+        }
+    
+        
+    .home-section .input-main .input-icon .fa-solid {
+        position: absolute;
+        top: 10px;
+        right: -10px;
+        padding-left: 8px;
+    }
+        .home-section .input-main {
+            margin-top: 20px;
+            width: auto;
+            display: flex;
+            height: auto;
+            flex-direction: column;       
+        }
+    
+        .home-section .popular h2 {
+            font-size: 1.7rem;
+            color: #8845f8;
+            margin-top: 20px;
+            font-weight: bolder;
+            margin-bottom: 10px;
+        }
+        .home-section .btn-groups-section button {
+            background-color: white;
+            color: #643fe7;
+            border-color: #643fe7;
+            border-radius: 17px;
+            font-weight: 500;
+            margin: 8px 7px;
+            font-size: 14px;
+        }
+        /*<!-- home section end -->*/
+    }
+/*<!-- fast 1 card section start -->*/
+/*<!-- fast 1 card section end -->*/
+
+/*<!-- two 2 card section start -->*/
+/*<!-- two 2 card section end -->*/
+
+/*<!-- three 3 card section start -->*/
+/*<!-- three 3 card section end -->*/
+
+/*<!-- footer  section start -->*/
+/*<!-- footer section end -->*/
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 780px) {
+    /*<!-- header start  -->*/
+    /*<!-- header End  -->*/
+    
+    /*<!-- home section start -->*/
+    
+    /*<!-- home section end -->*/
+    
+    /*<!-- fast 1 card section start -->*/
+    /*<!-- fast 1 card section end -->*/
+    
+    /*<!-- two 2 card section start -->*/
+    /*<!-- two 2 card section end -->*/
+    
+    /*<!-- three 3 card section start -->*/
+    .img-section {
+        display: none;
+    }
+    .three-card-section .four-p{
+        display: none;
+
+    }
+    .three-card-section .two-p {
+        font-size: .6rem;
+        font-weight: normal;
+    }
+    .five-p
+    /*<!-- three 3 card section end -->*/
+    
+    /*<!-- footer  section start -->*/
+    /*<!-- footer section end -->*/}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /*<!-- header start  -->*/
+    .header-wepper .navbar-menu {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        font-size: 1rem;
+    }
+    
+    .header-wepper  .nav-item .active {
+        color: black;
+        font-size: 1rem;
+    }
+    /*<!-- header End  -->*/
+    
+    /*<!-- home section start -->*/
+    /*<!-- home section end -->*/
+    
+    /*<!-- fast 1 card section start -->*/
+    /*<!-- fast 1 card section end -->*/
+    
+    /*<!-- two 2 card section start -->*/
+    /*<!-- two 2 card section end -->*/
+    
+    /*<!-- three 3 card section start -->*/
+    /*<!-- three 3 card section end -->*/
+    
+    /*<!-- footer  section start -->*/
+    /*<!-- footer section end -->*/}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+/*<!-- header start  -->*/
+/*<!-- header End  -->*/
+
+/*<!-- home section start -->*/
+/*<!-- home section end -->*/
+
+/*<!-- fast 1 card section start -->*/
+/*<!-- fast 1 card section end -->*/
+
+/*<!-- two 2 card section start -->*/
+/*<!-- two 2 card section end -->*/
+
+/*<!-- three 3 card section start -->*/
+/*<!-- three 3 card section end -->*/
+
+/*<!-- footer  section start -->*/
+/*<!-- footer section end -->*/
+}

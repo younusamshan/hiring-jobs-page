@@ -1,0 +1,59 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+/*<!-- three 3 card section start -->*/
+
+.three-card-section {
+    padding: 100px 20px;
+}
+.three-card-section .main-title h1 {
+   color: black;
+   font-size: 3.3rem;
+   font-weight: bolder;
+}
+.three-card-section .main-title span {
+    color: #643fe7;
+}
+.three-card-section .card {
+    border: 1.5px solid #643fe7;
+    border-radius: 15px;
+    padding: 0px 10px;
+    margin: 20px;
+}
+.three-card-section .card-body .one-p {
+    color: #0a0a0a;
+    font-weight: 400;
+    font-size: 16px;
+}
+.three-card-section .card-body .two-p {
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+}
+.three-card-section .card-body .three-p {
+     font-weight: bold;
+    color: #643fe7;
+    font-size: 14px;
+}
+.three-card-section .card-body .four-p {
+    font-weight: 600;
+    color: #000000;
+    padding: 5px 5px;
+    font-size: 14px;
+}
+.three-card-section .card-body .five-p {
+    color: #0a0a0a;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+.three-card-section .card-body .six-btn {
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #643fe7;
+    border: none;
+} 
+/*<!-- three 3 card section end -->*/

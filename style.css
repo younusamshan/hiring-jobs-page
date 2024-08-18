@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*<!-- header start  -->*/
+
+.header-wepper {
+    background-color:rgb(245, 243, 243) ;
+}
+.main-btn {
+    background-color:#12c4a0 !important;
+}
+.header-wepper .navbar-brand img {
+    max-width: 210px;
+    height: auto;
+}
+.header-wepper .navbar-menu {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    font-size: 1.2rem;
+}
+
+.header-wepper  .nav-item .active {
+    color: black;
+    font-size: 1.2rem;
+}  
+
+.header-wepper .navbar-menu .nav-link:active{
+    color: blue;
+}
+.header-wepper .navbar-menu .nav-link{
+ color: rgb(186, 178, 178);
+}
+.header-wepper .navbar-toggler:focus,
+.header-wepper .navbar-toggler:hover
+{
+    box-shadow: none;
+    border: none;
+    
+}
+.header-wepper .navbar-toggler{
+    border: none;
+}
+
+/*<!-- header End  -->*/
+
+/*<!-- home section start -->*/
+.home-section {
+    padding: 130px 20px;
+}
+.home-section .title-section {
+    font-size: 4.2rem;
+    font-weight: bolder;
+    color: #643fe7;
+}
+.home-section .title-section span {
+    color: #8845f8;
+}
+.home-section .text-section {
+    font-size: 20px;
+    margin: 16px 0 0;
+    color: black;
+
+}
+.home-section .input-main {
+    margin-top: 20px;
+    width: auto;
+    display: flex;
+    height: auto;
+}
+.home-section .input-main .input-icon {
+    position: relative;
+    width: 400px;
+}
+.home-section .input-main input{
+    width: 400px;
+    padding-left: 10px;
+    height: 40px;
+}
+.home-section .input-main .input-icon .fa-solid {
+    position: absolute;
+    top: 10px;
+    color: #643fe7;
+    right: 10px;
+}
+.home-section .input-main button {
+    color: white;
+    background-color: #643fe7;
+    padding: 10px 27px ;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: none;
+    margin-left: 20px;
+}
+.home-section .popular h2 {
+    font-size: 2.5rem;
+    color: #8845f8;
+    margin-top: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.home-section .btn-groups-section button {
+    background-color: white;
+    color: #643fe7;
+    border-color: #643fe7;
+    border-radius: 30px;
+    font-weight: bolder;
+    margin: 6px 10px;
+}
+/*<!-- home section end -->*/
+
+/*<!-- fast 1 card section start -->*/
+
+
+.hero {
+    background-color: #fbfbff;
+    padding: 50px 0px;
+}
+.hero h1 {
+    color: #643fe7;
+    font-weight: bolder;
+}
+.hero .card {
+    padding: 6px 10px;
+    border: 2px solid #643fe7;
+}
+.hero .card-body p {
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: black;
+}
+.hero .card-body h3,
+.hero .card-body h5 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #643fe7;
+}
+.hero .hero-head span {
+    color: black;
+}
+
+/*<!-- fast 1 card section end -->*/
+
+/*<!-- two 2 card section start -->*/
+.main {
+    padding: 100px 0;
+    background-color: #fbfbff;
+}
+.main .main-title {
+    color: #643fe7;
+ font-size: 3.2rem;
+ font-weight: bolder;
+}
+.main span {
+    color: black;
+}
+.main .main-text {
+    color: black;
+    font-size: 1.3rem;
+}
+.job-main .main-title h1 {
+    font-size: 2.9rem;
+    color:#000000 ;
+    font-weight: bolder;
+}
+
+.job-main .main-title span {
+    color: #643fe7 !important;
+}
+/*<!-- lsat section end  -->*/
+
+.main-card-group {
+    padding: 100px 40px;
+}
+.main-card-group .card {
+   border: 2px solid #643fe7;
+    padding: 25px;
+    transition: all .5s linear;
+}
+.main-card-group .card:hover {
+   transform: scale(1.1.6);
+    box-shadow: 1px 1px 8px   #643fe7;
+}
+
+
+/*<!-- two 2 card section end -->*/
+
+/*<!-- three 3 card section start -->*/
+
+.three-card-section {
+    padding: 100px 20px;
+}
+.three-card-section .main-title h1 {
+   color: black;
+   font-size: 3.3rem;
+   font-weight: bolder;
+}
+.three-card-section .main-title span {
+    color: #643fe7;
+}
+.three-card-section .card {
+    border: 1.5px solid #643fe7;
+    border-radius: 15px;
+    padding: 0px 10px;
+    margin: 20px;
+}
+.three-card-section .card-body .one-p {
+    color: #0a0a0a;
+    font-weight: 400;
+    font-size: 16px;
+}
+.three-card-section .card-body .two-p {
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+}
+.three-card-section .card-body .three-p {
+     font-weight: bold;
+    color: #643fe7;
+    font-size: 14px;
+}
+.three-card-section .card-body .four-p {
+    font-weight: 600;
+    color: #000000;
+    padding: 5px 5px;
+    font-size: 14px;
+}
+.three-card-section .card-body .five-p {
+    color: #0a0a0a;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+.three-card-section .card-body .six-btn {
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #643fe7;
+    border: none;
+} 
+/*<!-- three 3 card section end -->*/
+/*  img group section start  */
+.img-section {
+    padding: 100px 10px;
+}
+.img-section img {
+    margin-top: 20px;
+    max-width:  500px;
+}
+.img-section h2 {
+    color: #000000;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.img-section span {
+    color: #643fe7;
+}
+.img-section button {
+    background-color: white;
+    color: #4617f3;
+    border: 1.5px solid #643fe7;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+/*  img group section end  */
+/*<!-- footer  section start -->*/
+
+.footr-wrapper {
+    padding: 100px 0 25px;
+    background:url("assets/bg_footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#643fe7;
+    color: white;
+}
+.footr-wrapper .footer-logo img {
+    max-width: 30%;
+}
+.footr-wrapper .footer-text,
+.footr-wrapper .footer-text a {
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.footr-wrapper .footer-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 25px;
+}
+.footr-wrapper .footer-social-media-icon {
+    padding-right: 30px;
+    color: white;
+    font-size: 20px;
+}
+.footr-wrapper .footer-credits {
+    color: white;
+    border-top: 1px solid wheat;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+/*<!-- footer section end -->*/
+
+
+
+
+
+
